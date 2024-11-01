@@ -1,0 +1,111 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.my-page-page {
+  margin: 50px 0;
+}
+.my-page-page__title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #212529;
+  margin-top: 30px;
+}
+.my-page-page__completed-signatures-block-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #212529;
+  margin-top: 80px;
+}
+.my-page-page__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.my-page-page__header-btns {
+  display: flex;
+  gap: 5px;
+}
+.my-page-page__header-btns span {
+  background-color: #cfe2ff;
+  border-radius: 46px;
+  height: 38px;
+  padding: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #487cfb;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.my-page-page__content {
+  margin-top: 30px;
+}
+.my-page-page__content-table {
+  margin-top: 40px;
+}
+.my-page-page__signatures-block {
+  margin-top: 30px;
+}.statistics-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 30px;
+  border-top: 1px solid #d3d6d8;
+}
+.statistics-block__left-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.statistics-block__left-block p {
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 500;
+}
+.statistics-block__summary {
+  font-size: 24px;
+  font-weight: 500;
+  color: #212529;
+}.completed-signatures-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+.completed-signatures-block__group {
+  width: 25%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+@media (max-width: 1150px) {
+  .completed-signatures-block__group {
+    width: 50%;
+    justify-content: flex-start;
+  }
+}
+
+.completed-signatures-block-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+.completed-signatures-block-item__label, .completed-signatures-block-item__text {
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 500;
+}
+.completed-signatures-block-item__label {
+  white-space: nowrap;
+  color: #b3b3b3;
+}
+.completed-signatures-block-item__approved {
+  color: #198754;
+}

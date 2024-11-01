@@ -1,0 +1,145 @@
+body {
+  background-color: #f3f5fb;
+  display: flex;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+.employees-page {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+.employees-page .employees-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.content-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.tree-employees-content-wrapper {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 25px 15px 15px 40px;
+  height: 100%;
+}
+
+.tree-employees-content {
+  overflow: auto;
+  height: 100%;
+  display: flex;
+  padding: 0 25px 10px 0;
+}
+.tree-employees-content::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.tree-employees-content::-webkit-scrollbar-thumb {
+  background-color: #ccd3e7;
+  border-radius: 100px;
+}.accordion {
+  margin-left: 15px;
+}
+
+.accordion-step {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+}
+.accordion-step__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.accordion-step__btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #487cfb;
+  margin-bottom: 35px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.accordion-step__btn svg {
+  transition: all 0.2s ease-in-out;
+}
+
+.accordion-step2 {
+  margin-left: 80px;
+}
+
+.accordion-step3 {
+  margin-left: 160px;
+}.grayClass {
+  border-color: #f3f5fb !important;
+  background-color: #f3f5fb;
+}
+
+.employee-card:not(.grayClass) {
+  border-color: #ccd3e7;
+}
+
+.employee-card {
+  border: 2px solid;
+  border-radius: 30px;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  text-decoration: none;
+  width: fit-content;
+  padding: 10px 15px 15px 10px;
+}
+.employee-card__avatar {
+  position: relative;
+}
+.employee-card__avatar img {
+  border-radius: 50%;
+}
+.employee-card__avatar-after-element {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+.employee-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 210px;
+}
+.employee-card__info p {
+  color: #212529;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: pre-line;
+}
+.employee-card__info span {
+  color: #7f8ebe;
+  font-size: 14px;
+  font-weight: 500;
+}
+.employee-card__btn {
+  background-color: #ccd3e7;
+  width: 31px;
+  min-width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}

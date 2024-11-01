@@ -1,0 +1,80 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.my-page-page {
+  margin: 50px 0;
+}
+.my-page-page__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.my-page-page__title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #212529;
+}
+.my-page-page__content {
+  margin-top: 30px;
+}.employees-table thead th {
+  border: none;
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: 900;
+  white-space: pre-line;
+  background-color: #f3f5fb;
+}
+.employees-table tbody::before {
+  content: "-";
+  display: block;
+  line-height: 1em;
+  color: transparent;
+}.table-employee-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.table-employee-card__avatar {
+  position: relative;
+}
+.table-employee-card__avatar-after-element {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+.table-employee-card__text p {
+  color: #212529;
+  font-size: 16px;
+}
+.table-employee-card__text span {
+  display: block;
+  margin-top: 5px;
+  color: #7f8ebe;
+}
+.table-employee-card__tasks-btn {
+  background-color: #487cfb;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+tr:last-child td {
+  border: none;
+}
+
+td {
+  color: #41464b !important;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px 10px !important;
+  background-color: #f3f5fb !important;
+}

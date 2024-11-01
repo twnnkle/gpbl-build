@@ -1,0 +1,76 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.my-page-page {
+  margin: 50px 0;
+}
+.my-page-page__title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #212529;
+  margin-top: 30px;
+}
+.my-page-page__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.my-page-page__header-btns {
+  display: flex;
+  gap: 5px;
+}
+.my-page-page__header-btns span {
+  background-color: #cfe2ff;
+  border-radius: 46px;
+  height: 38px;
+  padding: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #487cfb;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.my-page-page__content {
+  margin-top: 30px;
+}
+.my-page-page__content-table {
+  margin-top: 40px;
+}
+.my-page-page__signatures-block {
+  margin-top: 20px;
+}.employees-table thead th {
+  border: none;
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: 900;
+  white-space: pre-line;
+  background-color: #f3f5fb;
+  vertical-align: top;
+}
+.employees-table tbody::before {
+  content: "-";
+  display: block;
+  line-height: 1em;
+  color: transparent;
+}
+.employees-table td {
+  background-color: #f3f5fb;
+  border: none;
+}
+.employees-table__btn {
+  padding: 40px 0;
+}
+.employees-table__btn span {
+  background-color: #cfe2ff;
+  padding: 10px 15px;
+  border-radius: 46px;
+  color: #487cfb;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}

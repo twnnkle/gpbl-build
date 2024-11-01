@@ -1,0 +1,15 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.my-page-page {
+  margin: 50px 0;
+}
+.my-page-page__content {
+  display: flex;
+  gap: 30px;
+}
+.my-page-page__iframe {
+  flex: 1;
+  margin-top: 30px;
+}

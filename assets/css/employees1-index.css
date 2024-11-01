@@ -1,0 +1,34 @@
+.employees-page {
+  margin-top: 50px;
+}
+.employees-page .employees-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.employees-page .employees-header__search-and-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}.employees-content-block {
+  margin-top: 40px;
+}
+.employees-content-block__title {
+  color: #212529;
+  font-weight: 500;
+  font-size: 28px;
+}
+.employees-content-block__cards {
+  margin-top: 30px;
+}.employees-content-block {
+  margin-top: 40px;
+}
+.employees-content-block__title {
+  color: #212529;
+  font-weight: 500;
+  font-size: 28px;
+}
+.employees-content-block__cards {
+  margin-top: 30px;
+}
