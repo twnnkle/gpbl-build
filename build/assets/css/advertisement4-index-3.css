@@ -1,0 +1,30 @@
+input.input-text {
+  width: 100%;
+  border: 1px solid #CCD3E7;
+  border-radius: 4px;
+  padding: 6px 24px 6px 12px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+}
+input.input-text::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ccd3e7;
+}
+input.input-text:disabled {
+  background-color: #fafbfd;
+}
+input.input-text:focus {
+  border: 1px solid #86B7FE;
+  box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.2509803922);
+  outline: none;
+}
+
+input.input-date {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABySURBVHgB5ZKxDYAgFETvGwcgxsJECxv3wJGcAFlARnAFJhCGsTS2RgsQexOh9jXX3OWKOxLKMAAtAbMHBrzhvQCRlENvSUyL2beVX+eBL6q6s3lQXpQNIuF4GmLdozImQyK/DbCUQE6edLhHzBbMOegb91kfheso3WcAAAAASUVORK5CYII=");
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 12px) center;
+}

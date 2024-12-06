@@ -1,0 +1,59 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.main-page {
+  margin-top: 25px;
+}
+.main-page .media-special-project h1 {
+  margin-top: 34px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+}
+.main-page .media-special-project img {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 100%;
+}
+.main-page .media-special-project p {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.main-page .media-special-project__links {
+  margin-top: 59px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.main-page .media-special-project__links__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #212529;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.main-page .media-special-project__links__item__icon {
+  box-sizing: content-box;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #F5F7FC;
+  background-image: url("data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M6.969%202.46912C7.03867%202.39928%207.12143%202.34386%207.21255%202.30605C7.30366%202.26824%207.40135%202.24878%207.5%202.24878C7.59865%202.24878%207.69633%202.26824%207.78745%202.30605C7.87857%202.34386%207.96133%202.39928%208.031%202.46912L17.031%2011.4691C17.1008%2011.5388%2017.1563%2011.6216%2017.1941%2011.7127C17.2319%2011.8038%2017.2513%2011.9015%2017.2513%2012.0001C17.2513%2012.0988%2017.2319%2012.1965%2017.1941%2012.2876C17.1563%2012.3787%2017.1008%2012.4615%2017.031%2012.5311L8.031%2021.5311C7.89017%2021.6719%207.69916%2021.7511%207.5%2021.7511C7.30083%2021.7511%207.10983%2021.6719%206.969%2021.5311C6.82817%2021.3903%206.74905%2021.1993%206.74905%2021.0001C6.74905%2020.801%206.82817%2020.6099%206.969%2020.4691L15.4395%2012.0001L6.969%203.53112C6.89915%203.46145%206.84374%203.37869%206.80593%203.28757C6.76812%203.19645%206.74866%203.09877%206.74866%203.00012C6.74866%202.90147%206.76812%202.80379%206.80593%202.71267C6.84374%202.62155%206.89915%202.53879%206.969%202.46912Z'%20fill='%23487CFB'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+}

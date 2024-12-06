@@ -1,0 +1,122 @@
+.white-block-1 {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+}
+.white-block-1 h5 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 16px;
+}
+.white-block-1__text-block {
+  margin-bottom: 16px;
+}
+.white-block-1__text-block p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #212529;
+}.white-block-2 {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+}
+.white-block-2 h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #212529;
+}
+.white-block-2__lists {
+  display: flex;
+  gap: 15px;
+  margin-top: 16px;
+}
+.white-block-2__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.white-block-2__list span,
+.white-block-2__list p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.white-block-2__list span {
+  color: #a6b1d2;
+}
+.white-block-2__list p {
+  color: #212529;
+}.advertisement-carousel {
+  margin-top: 40px;
+}
+.advertisement-carousel-main {
+  position: relative;
+}
+.advertisement-carousel .main-nav-btn {
+  position: absolute;
+  top: 50%;
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.advertisement-carousel .main-nav-btn_prev {
+  left: 8px;
+  transform: translateY(-50%) rotate(180deg);
+}
+.advertisement-carousel .main-nav-btn_next {
+  right: 8px;
+  transform: translateY(-50%);
+}
+.advertisement-carousel .main-nav-btn-wrapper {
+  height: 100%;
+  background-color: transparent;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.1s ease;
+  cursor: pointer;
+}
+.advertisement-carousel .main-nav-btn-wrapper:hover {
+  background-color: rgba(33, 37, 41, 0.32);
+}
+.advertisement-carousel .main-nav-btn-wrapper_prev {
+  left: 0;
+  border-radius: 16px 0 0 16px;
+}
+.advertisement-carousel .main-nav-btn-wrapper_next {
+  right: 0;
+  border-radius: 0 16px 16px 0;
+}
+.advertisement-carousel-active-img {
+  width: 100%;
+  height: auto;
+  user-select: none;
+  border-radius: 16px;
+}
+
+.advertisement-carousel-items {
+  margin-top: 15px;
+}
+.advertisement-carousel-items img {
+  width: 100%;
+  height: auto;
+}
+.advertisement-carousel-items .carousel-item {
+  user-select: none;
+}
+.advertisement-carousel-items .carousel-item img {
+  border-radius: 16px;
+  cursor: pointer !important;
+}

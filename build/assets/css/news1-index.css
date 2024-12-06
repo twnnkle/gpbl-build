@@ -1,0 +1,137 @@
+.news-page {
+  margin: 50px 0;
+}
+.news-page__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.news-page__title {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #212529;
+}
+.news-page__dropdowns {
+  margin-top: 32px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.news-page__cards {
+  margin-top: 24px;
+}.news-card {
+  background-color: #f3f5fb;
+  border-radius: 24px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.news-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
+.news-card__info {
+  padding: 16px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  height: 100%;
+}
+.news-card__subsection-name {
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 500;
+  color: #a6b1d2;
+}
+.news-card__label {
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 500;
+  color: #212529;
+  margin-top: 8px;
+}
+.news-card__description {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #212529;
+  margin-top: 8px;
+}
+.news-card__bottom-block {
+  display: flex;
+  justify-content: space-between;
+}
+.news-card__date {
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 500;
+  color: #a6b1d2;
+  flex: 1;
+}
+.news-card__comments-and-likes-block {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.news-card__comments, .news-card__likes {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.1s ease-in-out;
+}
+.news-card__comments:hover svg path, .news-card__likes:hover svg path {
+  fill: rgba(127, 142, 190, 0.737254902);
+}
+.news-card__comments span, .news-card__likes span {
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 500;
+  color: #a6b1d2;
+}.filter-dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  border: 1px solid #f5f7fc;
+  padding: 0 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 38px;
+}
+.filter-dropdown-btn span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #212529;
+}
+
+.filter-dropdown-list {
+  width: 100%;
+}
+
+.filter-dropdown-item.active {
+  background-color: #487cfb !important;
+}
+
+.filter-dropdown-item:active {
+  background-color: #487cfb !important;
+}.datepicker-dropdown-btn {
+  border: 1px solid #f5f7fc;
+  height: 38px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.datepicker-dropdown-menu {
+  padding: 0;
+  border: none;
+}

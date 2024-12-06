@@ -1,0 +1,116 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.analytics-page {
+  margin-top: 55px;
+}
+.analytics-page__dropdowns {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}.analytics-cards {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.analytics-card {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #a6b1d2;
+  width: 45%;
+}
+.analytics-card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.analytics-card__text p {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.analytics-card__date-and-size {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.analytics-card__date-and-size span {
+  color: #7f8ebe;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+.analytics-card__btn {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+.analytics-card__btn span {
+  color: #212529;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}.datepicker-dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 0 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 38px;
+}
+.datepicker-dropdown-btn span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #212529;
+}
+
+.datepicker-dropdown-menu {
+  padding: 0;
+  border: none;
+}.year-dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 0 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 38px;
+}
+.year-dropdown-btn span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #212529;
+}
+
+.year-dropdown-list {
+  width: 100%;
+}
+
+.year-dropdown-item.active {
+  background-color: #487cfb !important;
+}
+
+.year-dropdown-item:active {
+  background-color: #487cfb !important;
+}

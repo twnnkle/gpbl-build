@@ -1,0 +1,18 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.main-page {
+  margin-top: 50px;
+}
+.main-page .media-reports__content__header {
+  margin-top: 25px;
+}
+.main-page .media-reports__content__header h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+}
+.main-page .media-reports__content__documents {
+  margin-top: 43px;
+}

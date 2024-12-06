@@ -1,0 +1,114 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.main-page {
+  margin-top: 50px;
+}
+.main-page .media-reviews__content__image-card {
+  margin-top: 27px;
+}
+.main-page .media-reviews__content__filter {
+  margin-top: 32px;
+  display: flex;
+  gap: 10px;
+}
+.main-page .media-reviews__content__filter__year, .main-page .media-reviews__content__filter__period {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 7px 13px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+.main-page .media-reviews__content__filter__year__date, .main-page .media-reviews__content__filter__period__date {
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+.main-page .media-reviews__content__documents {
+  margin-top: 28px;
+}.image-card {
+  position: relative;
+  padding: 16px 24px;
+  border-radius: 24px;
+  min-height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 24px;
+  z-index: 2;
+}
+.image-card > img {
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+  z-index: 1;
+}
+.image-card__title {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #ffffff;
+  max-width: 515px;
+  z-index: 3;
+}.datepicker-dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 0 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 38px;
+}
+.datepicker-dropdown-btn span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #212529;
+}
+
+.datepicker-dropdown-menu {
+  padding: 0;
+  border: none;
+}.year-dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 0 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 38px;
+}
+.year-dropdown-btn span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #212529;
+}
+
+.year-dropdown-list {
+  width: 100%;
+}
+
+.year-dropdown-item.active {
+  background-color: #487cfb !important;
+}
+
+.year-dropdown-item:active {
+  background-color: #487cfb !important;
+}

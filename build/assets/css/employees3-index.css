@@ -1,0 +1,53 @@
+.employees-page {
+  margin-top: 50px;
+}
+.employees-page .employees-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.employees-page .employees-header__search-and-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}.employees-table {
+  margin-top: 55px;
+}
+.employees-table thead th {
+  border: none;
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: 900;
+  vertical-align: top;
+}
+.employees-table tbody::before {
+  content: "-";
+  display: block;
+  line-height: 1em;
+  color: transparent;
+}.table-employee-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.table-employee-card__text p {
+  color: #212529;
+  font-size: 16px;
+}
+
+tr {
+  cursor: pointer;
+}
+
+tr:last-child td {
+  border: none;
+}
+
+td {
+  color: #41464b !important;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 30px 10px !important;
+  vertical-align: top;
+}

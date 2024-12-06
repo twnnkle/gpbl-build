@@ -1,0 +1,44 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.main-page {
+  margin-top: 50px;
+}
+.main-page .media-special-projects-header {
+  margin-top: 25px;
+}
+.main-page .media-special-projects-header h2 {
+  color: #212529;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+}
+.main-page .media-special-projects-list {
+  margin-top: 16px;
+}.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(306px, 1fr));
+  gap: 24px;
+}
+.projects-list__item {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.projects-list__item__image > img {
+  display: block;
+  border-radius: 24px;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.projects-list__item__content {
+  padding: 16px;
+}
+.projects-list__item__content__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #212529;
+}

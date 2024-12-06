@@ -1,0 +1,32 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.main-page {
+  margin-top: 25px;
+}
+.main-page .media-applications-analytics__breadcrumbs {
+  margin-bottom: 24px;
+}
+.main-page .media-applications-analytics__content__title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  margin-bottom: 12px;
+}
+.main-page .media-applications-analytics__content__description {
+  max-width: 746px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212529;
+  margin-bottom: 40px;
+}
+.main-page .media-applications-analytics__content__progress {
+  margin-top: 40px;
+  margin-bottom: 32px;
+  max-width: 540px;
+}
+.main-page .media-applications-analytics__content__form__submit {
+  margin-top: 32px;
+}

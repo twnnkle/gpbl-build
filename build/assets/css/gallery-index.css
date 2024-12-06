@@ -1,0 +1,92 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.gallery-page {
+  margin-top: 55px;
+}
+.gallery-page__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gallery-page__title {
+  margin-top: 35px;
+  color: #212529;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+}
+.gallery-page__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}.gallery-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 24px;
+}
+.gallery-card__label-and-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.gallery-card__label {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #212529;
+}
+.gallery-card__date, .gallery-card__location {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #7f8ebe;
+}
+.gallery-card__location {
+  margin-top: 10px;
+}
+.gallery-card__image-and-menu {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+}
+.gallery-card__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.gallery-card__menu-label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #212529;
+}
+.gallery-card__menu-links {
+  display: flex;
+  column-gap: 30px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.gallery-card__menu-links a {
+  padding-right: 24px;
+  color: #487cfb;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  position: relative;
+}
+.gallery-card__menu-links a::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/svg+xml,%3csvg%20width='16'%20height='16'%20viewBox='0%200%2016%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_1119_4499)'%3e%3crect%20width='16'%20height='16'%20fill='white'%20fill-opacity='0.01'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M14.0021%202.50098C14.0021%202.36837%2013.9494%202.24119%2013.8556%202.14742C13.7619%202.05366%2013.6347%202.00098%2013.5021%202.00098H7.5021C7.36949%202.00098%207.24231%202.05366%207.14854%202.14742C7.05478%202.24119%207.0021%202.36837%207.0021%202.50098C7.0021%202.63358%207.05478%202.76076%207.14854%202.85453C7.24231%202.9483%207.36949%203.00098%207.5021%203.00098H12.2951L2.1481%2013.147C2.10161%2013.1935%202.06473%2013.2487%202.03957%2013.3094C2.01441%2013.3701%202.00146%2013.4352%202.00146%2013.501C2.00146%2013.5667%202.01441%2013.6318%202.03957%2013.6926C2.06473%2013.7533%202.10161%2013.8085%202.1481%2013.855C2.19458%2013.9015%202.24977%2013.9383%202.31051%2013.9635C2.37125%2013.9887%202.43635%2014.0016%202.5021%2014.0016C2.56784%2014.0016%202.63294%2013.9887%202.69368%2013.9635C2.75442%2013.9383%202.80961%2013.9015%202.8561%2013.855L13.0021%203.70798V8.50098C13.0021%208.63358%2013.0548%208.76076%2013.1485%208.85453C13.2423%208.9483%2013.3695%209.00098%2013.5021%209.00098C13.6347%209.00098%2013.7619%208.9483%2013.8556%208.85453C13.9494%208.76076%2014.0021%208.63358%2014.0021%208.50098V2.50098Z'%20fill='%23487CFB'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_1119_4499'%3e%3crect%20width='16'%20height='16'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

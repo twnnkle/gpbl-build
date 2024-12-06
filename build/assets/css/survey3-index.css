@@ -1,0 +1,127 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.survey-page {
+  margin: 50px 287px 0 287px;
+}
+.survey-page__title {
+  color: #212529;
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.survey-page__description {
+  color: #212529;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+.survey-page__cards {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}.white-card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 24px;
+}
+.white-card__title, .white-card__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.white-card__title {
+  color: #212529;
+}
+.white-card__text {
+  color: #7f8ebe;
+  margin-top: 8px;
+}
+.white-card__lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 250px;
+  margin-top: 8px;
+}
+.white-card__list {
+  padding: 0;
+  list-style: none;
+}
+.white-card__list li {
+  font-size: 16px;
+  line-height: 24px;
+}
+.white-card__list_gray li {
+  color: #7f8ebe;
+  font-weight: 400;
+}
+.white-card__list_black li {
+  color: #212529;
+  font-weight: 700;
+}
+.white-card__statistics-cards {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}.statistics-card {
+  position: relative;
+  border-radius: 24px;
+  width: calc(50% - 6px);
+}
+.statistics-card img {
+  border-radius: 24px;
+  width: 100%;
+  height: auto;
+}
+.statistics-card__progress {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}.view-answers-btn {
+  margin-top: 12px;
+}
+
+.offcanvas-answers {
+  width: 540px !important;
+  background-color: #f3f5fb;
+}
+.offcanvas-answers .offcanvas-header {
+  align-items: flex-start !important;
+}
+.offcanvas-answers .offcanvas-header button {
+  margin-top: 1px;
+}
+.offcanvas-answers .offcanvas-title {
+  color: #212529;
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: 500;
+}
+.offcanvas-answers .offcanvas-title span {
+  color: #7f8ebe;
+}
+.offcanvas-answers__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.offcanvas-answers__card {
+  padding: 20px;
+  border-radius: 30px;
+  background: #ffffff;
+  color: #7f8ebe;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}

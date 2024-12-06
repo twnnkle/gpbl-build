@@ -1,0 +1,197 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.idea-page {
+  margin: 45px 270px 0 150px;
+}
+@media (max-width: 1250px) {
+  .idea-page {
+    margin: 45px 0 0 0;
+  }
+}
+.idea-page__title {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 500;
+  color: #212529;
+  margin-top: 70px;
+  margin-bottom: 24px;
+}.idea-block {
+  background-image: url("../../assets/images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 32px;
+  border-radius: 16px;
+  margin-top: 24px;
+}
+.idea-block h3 {
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: 500;
+  color: #212529;
+}
+.idea-block p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 20.8px;
+  font-weight: 400;
+  color: #878b94;
+  max-width: 315px;
+}
+.idea-block__btns {
+  margin-top: 90px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.idea-block__btns a {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #487cfb;
+  text-decoration: none;
+}.card-with-icon {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  text-decoration: none;
+}
+.card-with-icon__icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #f5f7fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-with-icon p {
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 500;
+  color: #212529;
+}.ideas-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ideas-list li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  color: #212529;
+}.step-card {
+  background-image: url("src/assets/pages/idea/step-card-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 16px;
+  border-radius: 16px;
+  height: 100%;
+}
+.step-card__step-and-date {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.step-card__step {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #007bff;
+  white-space: nowrap;
+}
+.step-card__date {
+  color: #487cfb;
+  font-size: 14px;
+  line-height: 12.6px;
+  font-weight: 500;
+  text-align: right;
+}
+.step-card__title {
+  margin-top: 65px;
+  color: #212529;
+  font-size: 18px;
+  line-height: 21.6px;
+  font-weight: 500;
+}
+.step-card__description {
+  margin-top: 8px;
+  color: #212529;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 400;
+}.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("src/assets/pages/idea/banner-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 35px 25px 25px 25px;
+  border-radius: 16px;
+  margin-top: 70px;
+}
+.banner__title {
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.banner__description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  max-width: 400px;
+  text-align: center;
+}
+.banner__button {
+  margin-top: 24px;
+  height: 38px;
+  padding: 0 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #212529;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}.document-for-download {
+  display: flex;
+  align-items: center;
+}
+.document-for-download p,
+.document-for-download a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.document-for-download p {
+  margin-left: 16px;
+  color: #212529;
+  border-right: 1px solid rgba(33, 37, 41, 0.25);
+  padding-right: 8px;
+}
+.document-for-download a {
+  color: #487cfb;
+  text-decoration: none;
+  margin-left: 8px;
+}

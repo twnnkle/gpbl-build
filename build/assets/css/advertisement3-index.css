@@ -1,0 +1,62 @@
+body {
+  background-color: #f3f5fb;
+}
+
+.advertisement-page {
+  margin: 50px 277px 0 277px;
+}
+@media (max-width: 1300px) {
+  .advertisement-page {
+    margin: 50px 100px 0 100px;
+  }
+}
+.advertisement-page__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 24px;
+}
+.advertisement-page__header h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #212529;
+  line-height: 38.4px;
+}
+.advertisement-page__price {
+  font-size: 24px;
+  font-weight: 500;
+  color: #487cfb;
+  line-height: 28.8px;
+  margin-top: 8px;
+}
+.advertisement-page__white-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 32px;
+}.delete-btn-with-modal .modal-body {
+  padding: 24px 32px;
+}
+.delete-btn-with-modal__btn button {
+  height: fit-content;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+.delete-btn-with-modal h5 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 35.2px;
+  color: #212529;
+}
+.delete-btn-with-modal p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #212529;
+}
+.delete-btn-with-modal .modal-btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
