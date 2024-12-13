@@ -5,6 +5,12 @@ body {
 .main-page {
   margin-top: 50px;
 }
+.main-page .media-special-projects-breadcrumbs__breadcrumbs-and-star {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
 .main-page .media-special-projects-header {
   margin-top: 25px;
 }

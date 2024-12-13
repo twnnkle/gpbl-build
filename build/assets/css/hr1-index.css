@@ -5,7 +5,13 @@ body {
 .hr-page {
   margin-top: 35px;
 }
-.hr-page__title {
+.hr-page__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.hr-page__header h4 {
   font-size: 40px;
   font-weight: 700;
   color: #212529;

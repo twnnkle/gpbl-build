@@ -5,8 +5,15 @@ body {
 .main-page {
   margin-top: 54px;
 }
-.main-page .media-applications-stationery__breadcrumbs {
+.main-page .media-applications-stationery__breadcrumbs-and-star {
   margin-bottom: 24px;
+  position: relative;
+}
+.main-page .media-applications-stationery__star {
+  position: absolute;
+  top: 50%;
+  right: -100px;
+  transform: translateY(-50%);
 }
 .main-page .media-applications-stationery__content__title {
   font-size: 32px;

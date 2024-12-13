@@ -10,6 +10,12 @@ body {
     margin: 50px 100px 0 100px;
   }
 }
+.state-programs-page__breadcrumbs-and-star {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
 .state-programs-page__title {
   font-size: 40px;
   font-weight: 500;

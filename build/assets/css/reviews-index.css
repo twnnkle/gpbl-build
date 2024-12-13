@@ -5,6 +5,12 @@ body {
 .main-page {
   margin-top: 50px;
 }
+.main-page .media-reviews__breadcrumbs-and-star {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
 .main-page .media-reviews__content__image-card {
   margin-top: 27px;
 }

@@ -5,6 +5,12 @@ body {
 .main-page {
   margin-top: 25px;
 }
+.main-page .media-special-project__breadcrumbs-and-star {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
 .main-page .media-special-project h1 {
   margin-top: 34px;
   font-size: 40px;

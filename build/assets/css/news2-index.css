@@ -68,21 +68,23 @@
   color: #212529;
 }
 .news-page__right-block {
-  margin-top: 160px;
   width: 15%;
   cursor: pointer;
   height: fit-content;
 }
-.news-page__right-block p {
+.news-page__file {
+  margin-top: 160px;
+}
+.news-page__file p {
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
   color: #212529;
 }
-.news-page__right-block .right-block-file-label {
+.news-page__file .right-block-file-label {
   margin-top: 15px;
 }
-.news-page__right-block .right-block-file-info {
+.news-page__file .right-block-file-info {
   margin-top: 6px;
 }.history-1 {
   margin-top: 40px;
@@ -338,6 +340,7 @@
 .comment-content__top-block {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 .comment-content__name {
   font-size: 16px;

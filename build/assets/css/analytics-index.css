@@ -5,7 +5,11 @@ body {
 .main-page {
   margin-top: 25px;
 }
-.main-page .media-applications-analytics__breadcrumbs {
+.main-page .media-applications-analytics__breadcrumbs-and-star {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
   margin-bottom: 24px;
 }
 .main-page .media-applications-analytics__content__title {

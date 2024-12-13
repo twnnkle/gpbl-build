@@ -5,7 +5,11 @@ body {
 .main-page {
   margin-top: 54px;
 }
-.main-page .media-applications-training__breadcrumbs {
+.main-page .media-applications-training__breadcrumbs-and-star {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
   margin-bottom: 24px;
 }
 .main-page .media-applications-training__content__title {
@@ -43,4 +47,27 @@ body {
 }
 .main-page .media-applications-training__content__form__submit {
   margin-top: 32px;
+}.range-steps__labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+.range-steps__labels span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212529;
+}.cards-with-img {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.cards-with-img__item {
+  width: calc(50% - 8px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cards-with-img__item img {
+  width: 100%;
+  height: auto;
 }

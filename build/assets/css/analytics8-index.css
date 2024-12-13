@@ -5,6 +5,12 @@ body {
 .analytics-page {
   margin-top: 55px;
 }
+.analytics-page__breadcrumbs-and-star {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
 .analytics-page__header {
   margin-top: 25px;
   display: flex;
