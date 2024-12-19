@@ -1,0 +1,17 @@
+.file-for-download {
+  margin-top: 25px;
+  cursor: pointer;
+}
+.file-for-download:hover .file-for-download__label,
+.file-for-download:hover .file-for-download__info {
+  color: #007bff;
+}
+.file-for-download__label, .file-for-download__info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #212529;
+}
+.file-for-download__label {
+  margin-top: 5px;
+}

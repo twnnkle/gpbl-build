@@ -1,0 +1,103 @@
+.hr-page {
+  margin: 50px 50px 50px 310px;
+}
+@media (max-width: 1300px) {
+  .hr-page {
+    margin: 50px 50px 50px 200px;
+  }
+}
+.hr-page__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+.hr-page__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}.left-block {
+  width: 70%;
+}
+.left-block__title {
+  margin-bottom: 30px;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: auto;
+  color: #212529;
+}
+.left-block img {
+  width: 100%;
+  height: auto;
+}
+.left-block__description {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: auto;
+  color: #212529;
+}
+.left-block__gray-block {
+  margin-top: 30px;
+  background-color: #f5f7fc;
+  padding: 24px;
+}
+.left-block__gray-block p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #212529;
+}
+.left-block-instruction {
+  margin-top: 30px;
+}
+.left-block-instruction__title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: auto;
+  color: #212529;
+}
+.left-block-instruction__label {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: auto;
+  color: #212529;
+}
+.left-block-instruction__description {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: auto;
+  color: #212529;
+}
+.left-block-instruction__description a {
+  font-weight: 500;
+  color: #212529;
+}.right-block {
+  width: 20%;
+  margin-top: 30px;
+}
+.right-block__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #a6b1d2;
+}
+.right-block__file {
+  margin-top: 15px;
+  cursor: pointer;
+}
+.right-block__file-label, .right-block__file-info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #212529;
+}
+.right-block__file-label {
+  margin-top: 15px;
+}
+.right-block__file-info {
+  margin-top: 5px;
+}

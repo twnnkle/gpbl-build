@@ -1,0 +1,56 @@
+.state-programs-page {
+  margin: 50px 50px 50px 310px;
+}
+@media (max-width: 1300px) {
+  .state-programs-page {
+    margin: 50px 50px 50px 200px;
+  }
+}
+.state-programs-page__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+.state-programs-page__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}.left-block {
+  width: 70%;
+}
+.left-block__title {
+  margin-bottom: 30px;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: auto;
+  color: #212529;
+}
+.left-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+.left-block__description ul {
+  margin: 0;
+}
+.left-block__description p {
+  margin-top: 15px;
+}
+.left-block__description p,
+.left-block__description span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+  line-height: 24px;
+}.right-block {
+  width: 20%;
+  margin-top: 30px;
+}
+.right-block__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #a6b1d2;
+}
