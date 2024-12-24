@@ -67,6 +67,16 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+.cards-with-img__item-img {
+  position: relative;
+}
+.cards-with-img__item-open-img-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
 .cards-with-img__item img {
   width: 100%;
   height: auto;
