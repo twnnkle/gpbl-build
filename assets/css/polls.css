@@ -1,0 +1,8 @@
+.card-with-arrow--inactive {
+	filter: grayscale(100%); /* Серый фильтр */
+	pointer-events: none;    /* Убираем возможность клика */
+}
+
+.card-with-arrow__text {
+	line-height: 1.1; /* Межстрочный интервал в заголовке опроса */
+}

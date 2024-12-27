@@ -1,0 +1,20 @@
+.dynamic-card-row {
+    margin-right: -20px;
+}
+
+.carousel-card {
+    padding: 24px 24px 0px 24px;
+    max-height: 420px;
+    min-height: 420px;
+    border-radius: 24px;
+    color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-decoration: none;
+}
+
+.btn-primary {
+    border: unset!important;
+}
