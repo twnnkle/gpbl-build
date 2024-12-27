@@ -1,21 +1,42 @@
-.datepicker-dropdown-btn {
+.event-card {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
   background-color: #ffffff;
-  padding: 0 12px;
-  border-radius: 4px;
-  cursor: pointer;
-  height: 38px;
+  max-width: 306px;
+  border-radius: 20px;
 }
-.datepicker-dropdown-btn span {
+.event-card__image__poster {
+  border-radius: 20px;
+  object-fit: cover;
+  max-width: 100%;
+}
+.event-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+.event-card__content__period {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-  color: #212529;
+  font-weight: 500;
+  line-height: 19px;
+  color: #A6B1D2;
 }
-
-.datepicker-dropdown-menu {
+.event-card__content__header {
+  text-decoration: none;
+  color: #212529;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.event-card__content__categories ul {
   padding: 0;
-  border: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+}
+.event-card__content__categories ul li a {
+  color: #487cfb;
 }

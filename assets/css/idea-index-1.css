@@ -1,18 +1,13 @@
-.field-card {
-  background-color: #ffffff;
-  padding: 24px;
-  gap: 12px;
-  border-radius: 24px;
+.field-with-dropdown__input-wrapper {
+  position: relative;
+  margin-top: 8px;
 }
-.field-card__title {
-  margin-bottom: 8px;
-  color: #212529;
-  font-size: 16px;
-  line-height: 24px;
+.field-with-dropdown__input-wrapper .input-arrow-icon {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
 }
-.field-card__title_required {
-  color: #DC3545;
-}
-.field-card__content {
-  display: block;
+.field-with-dropdown__input-wrapper input::placeholder {
+  color: #ccd3e7;
 }
