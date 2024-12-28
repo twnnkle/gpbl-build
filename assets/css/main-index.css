@@ -64,10 +64,6 @@ body {
   font-size: 40px;
   font-weight: 500;
   line-height: 48px;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
 }
 .carousel-card p {
   font-size: 16px;
@@ -165,6 +161,7 @@ body {
   border: 1px solid #f3f5fb;
   transition: all 0.1s ease-in-out;
   text-decoration: none;
+  height: 100%;
 }
 .gray-card-with-img:hover {
   border-color: #ccd3e7;
@@ -179,21 +176,20 @@ body {
   flex-direction: column;
   gap: 7px;
   padding: 15px;
+  height: 100%;
 }
 .gray-card-with-img__subdivision, .gray-card-with-img__date {
   color: #a6b1d2;
   font-size: 16px;
   font-weight: 500;
 }
+.gray-card-with-img__date {
+  margin-top: auto;
+}
 .gray-card-with-img__title {
   color: #212529;
   font-size: 20px;
   font-weight: 500;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-  height: 50px;
 }
 .gray-card-with-img__description {
   color: #212529;
